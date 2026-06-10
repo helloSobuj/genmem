@@ -4,9 +4,32 @@
   "description": "Local-first markdown memory MCP server. Searchable, file-based, human-readable.",
   "type": "module",
   "license": "MIT",
+
+  "author": {
+    "name": "Jannatunnaim Sobuj",
+    "url": "https://github.com/helloSobuj"
+  },
+
+  "homepage": "https://github.com/helloSobuj/genmem",
+
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/helloSobuj/genmem.git"
+  },
+
+  "bugs": {
+    "url": "https://github.com/helloSobuj/genmem/issues"
+  },
+
+  "funding": {
+    "type": "github",
+    "url": "https://github.com/sponsors/helloSobuj"
+  },
+
   "bin": {
     "genmem-mcp": "./bin/genmem-mcp.js"
   },
+
   "files": [
     "dist/",
     "bin/",
@@ -14,9 +37,12 @@
     "LICENSE",
     "docs/"
   ],
+
   "engines": {
-    "node": ">=22.12.0 <23.0.0"
+  "node": ">=22.12.0"
+  }
   },
+
   "scripts": {
     "build": "tsc -p tsconfig.json",
     "dev": "tsx src/cli/index.ts",
@@ -28,6 +54,7 @@
     "prepare": "npm run build",
     "prepublishOnly": "npm run lint && npm test && npm run build"
   },
+
   "dependencies": {
     "@modelcontextprotocol/sdk": "^1.0.0",
     "better-sqlite3": "^11.3.0",
@@ -36,6 +63,7 @@
     "ulid": "^2.3.0",
     "zod": "^3.23.8"
   },
+
   "devDependencies": {
     "@types/better-sqlite3": "^7.6.11",
     "@types/node": "^22.7.0",
@@ -48,13 +76,22 @@
     "typescript": "^5.6.0",
     "vitest": "^2.1.2"
   },
+
   "keywords": [
     "mcp",
     "model-context-protocol",
     "memory",
     "claude",
     "cursor",
+    "cline",
+    "windsurf",
+    "continue",
     "ai-memory",
-    "markdown"
+    "long-term-memory",
+    "knowledge-base",
+    "markdown",
+    "local-first",
+    "rag",
+    "mcp-server"
   ]
 }
