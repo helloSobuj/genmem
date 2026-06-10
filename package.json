@@ -4,6 +4,10 @@
   "description": "Local-first markdown memory MCP server. Searchable, file-based, human-readable.",
   "type": "module",
   "license": "MIT",
+  
+  "publishConfig": {
+  "access": "public"
+},
 
   "author": {
     "name": "Jannatunnaim Sobuj",
