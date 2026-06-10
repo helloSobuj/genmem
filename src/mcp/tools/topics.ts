@@ -4,8 +4,8 @@ import { z } from "zod";
 import type { Database } from "better-sqlite3";
 import { ok, type ToolResult } from "../format.js";
 
-const TopicsInputSchema = z.object({});
-export type TopicsInput = z.infer<typeof TopicsInputSchema>;
+const _TopicsInputSchema = z.object({});
+export type TopicsInput = z.infer<typeof _TopicsInputSchema>;
 
 export interface TopicInfo {
   name: string;
