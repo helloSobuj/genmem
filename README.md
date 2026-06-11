@@ -12,7 +12,7 @@
 
 
 
-[English](https://claude.ai/chat/15b2fc3f-bbdd-49cd-8afb-27e375d4faf5#-english) | [বাংলা](https://claude.ai/chat/15b2fc3f-bbdd-49cd-8afb-27e375d4faf5#-bangla) | [中文](https://claude.ai/chat/15b2fc3f-bbdd-49cd-8afb-27e375d4faf5#-chinese)
+[English](#-english) | [বাংলা](#-bangla) | [中文](#-chinese)
 </div>
 
 
